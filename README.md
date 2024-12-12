@@ -37,19 +37,6 @@ The **Event Calendar App** is a React-based web application designed to manage a
    ```  
    The app will start on `http://localhost:5173`. Open this URL in your browser to use the app.  
 
-4. **Build for Production** (optional):  
-   If you’d like to build the app for production:  
-   ```bash  
-   npm run build  
-   ```  
-   This generates the optimized output in the `dist` directory.  
-
-5. **Preview the Production Build** (optional):  
-   To locally preview the production build:  
-   ```bash  
-   npm run preview  
-   ```  
-
 ---
 
 ## Deployed App  
