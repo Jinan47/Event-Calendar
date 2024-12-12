@@ -1,0 +1,21 @@
+/* App Container */
+.app-container {
+  display: flex;
+  justify-content: center; /* Center the layout horizontally */
+  align-items: center; /* Align content to the top */
+  gap: 40px; /* Space between the calendar and sidebar */
+  padding: 20px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Calendar */
+.calendar-container {
+  flex: 1; /* Allow the calendar to grow and take available space */
+  max-width: 700px; /* Optional: limit the calendar's maximum width */
+}
+
+/* Sidebar */
+.sidebar {
+  flex: 0 0 300px; /* Fixed width for the sidebar */
+}

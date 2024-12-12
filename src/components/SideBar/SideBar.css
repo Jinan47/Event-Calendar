@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap");
+
+.sidebar {
+  width: 250px;
+  background: #f5f5f5;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  padding-bottom: 10px;
+}
+
+.sidebar li {
+  background-color: #91ac8f;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 3px;
+  color: black;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar li:hover {
+  background-color: #81a479;
+}
+
+.category-filter {
+  padding: 8px;
+  margin: 10px 0;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.event-list {
+  max-height: 500px;
+  overflow-y: auto;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+
+.event-item {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.event-item:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.event-item h4 {
+  margin: 0;
+}
+
+.event-item p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.event-item .time {
+  display: inline-block;
+}
+
+.event-item .description {
+  color: rgb(63, 57, 57);
+}
+
+.edit-event-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  z-index: 10;
+}
+
+.edit-event-form select {
+  width: 80%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.edit-event-form input {
+  width: 80%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.edit-event-form button:first-child {
+  background-color: #4caf50;
+  color: white;
+}
+
+.edit-event-form button:last-child {
+  background-color: #f44336;
+  color: white;
+}
+
+.edit-event-form button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.action-button-div {
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.action-button {
+  background: none;
+  text-align: center;
+  margin: 0;
+}
